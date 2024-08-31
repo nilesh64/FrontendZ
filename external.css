@@ -1,0 +1,28 @@
+
+.ABC{
+    color: aliceblue;
+    background-color: black;
+    height: 600px;
+    width: 500px;
+}
+.A{
+    color: rgb(200, 19, 19);
+    background-color: rgb(17, 82, 139);
+   width: 250px; 
+   height: 600px;
+   float: left;
+}
+.B{
+    color: rgb(187, 18, 21);
+    background-color: rgb(78, 143, 199);
+    width: 250px;
+    height: 600px;
+    float: left;
+}
+.C{
+    color: rgb(187, 18, 21);
+    background-color: rgb(164, 214, 24);
+    width: 250px;
+    height: 200px;
+    float: left; 
+}

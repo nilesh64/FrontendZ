@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+        }
+        .container{
+            height: 600px;
+            width: 600px;
+            border: 2px solid red;
+            background-color: rgb(237, 210, 4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 300px;
+            box-shadow: 0px 0px 30px red;
+            position: relative;
+            animation-name: box;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-duration: 1ms;
+        }
+        .box{
+            height: 250px;
+            width: 250px;
+            border: 2px solid yellow;
+            border-radius: 300px 0px;
+            background-color: red;
+            box-shadow: 0px 0px 30px white;
+            position: absolute;
+            
+        }
+        .box:nth-last-child(1){
+            top: 0;
+            transform: rotate(-45deg);
+
+        }
+        .box:nth-last-child(2){
+          left: 0;  
+          transform: rotate(45deg);
+        }
+        .box:nth-last-child(3){
+           right: 0; 
+           transform: rotate(45deg);
+        }
+        .box:nth-last-child(4){
+            bottom:0;
+            transform: rotate(-45deg);
+        }
+        @keyframes box {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

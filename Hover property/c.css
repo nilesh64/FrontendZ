@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding-left: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.first{
+    color: black;
+    background-color: aquamarine;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.first ul{
+    list-style: none;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 30px;
+    padding: 5px 10px;
+    border: 2px solid red;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 20px;
+    /* box-shadow: 20px; */
+
+}
+.contact:hover{
+color: blueviolet;
+background-color: black;
+/* visibility: visible; */
+}
+.page li{
+    margin: 10px 15px;
+    padding: 2px;
+}
+.A{
+    /* display: none; */
+    visibility: hidden;
+    position: absolute;
+    line-height: 20px;
+    margin-top: 0px;
+    text-align: justify;
+    padding: 10px;
+    background-color: black;
+}
+.contact:hover .A{
+    /* display: block; */
+    visibility: visible;
+}
+.name{
+    background-color: rgb(18, 24, 24);
+}
+.name li:hover{
+background-color: brown;
+}

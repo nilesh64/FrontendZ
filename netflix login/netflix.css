@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url("https://media.geeksforgeeks.org/wp-content/uploads/20240313102506/NetlfixHome-min.jpeg");
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 50%; */
+    /* width: 50%; */
+}
+.icon{
+    height: 50px;
+    margin-left: 20px;
+}
+.top{
+    padding-bottom: 50px;
+}
+.bottom{
+    margin: auto;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 100px;
+    
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.login-card h1 {
+    color: white;
+    padding-bottom: 10px;
+}
+.userInput{
+    /* display: flex; */
+    color: inherit;
+    
+    /* margin: 10px; */
+}
+.userInput input{
+    color: inherit;
+    margin: 10px;
+}

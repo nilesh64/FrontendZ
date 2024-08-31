@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container{
+            height: 400px;
+            width: 400px;
+            border: 2px solid red;
+            border-radius: 300px;
+            transition-property: all;
+            transition-duration: 2s;
+            background-color: yellowgreen;
+            /* transform: rotate(45deg); */
+            /* transform: skewX(45deg); */
+            transform: skewY(45deg);
+        }
+        .container:nth-child(2n+1){
+            /* transform: rotate(-45deg); */
+            background-color: blue;
+            transform: skewX(-45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    <div class="container"></div>
+    <div class="container"></div>
+    <div class="container"></div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+*{
+    /* /select all elements */
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: aquamarine;
+}
+.main{
+    width: 1170px;
+    height: 1600px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}

@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(12, 12, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 70%;
+    height: 700px;
+    background-color: rgb(224, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    width: 40%;
+    /* border: 2px solid black; */
+    height:80% ;
+    background-color: black;
+}
+.right{
+    width:50% ;
+    height: 80%;
+    color: #060505;
+    padding: 50px 30px;
+    /* border: 2px dotted blueviolet; */
+}
+h1{
+
+    font-size: 70px;
+  }
+  
+  h3{
+      font-size: 25px;
+      letter-spacing: 2px;
+  }
+  
+  span{
+      color: rgb(222, 10, 81);
+  }
+  
+  h1,h3,p,button{
+  
+      margin: 20px 0px;
+  }
+  
+  p{
+      line-height: 25px;
+      color: rgb(224, 162, 171);
+      letter-spacing: 2px;
+  }
+  
+  button{
+      padding: 13px 25px;
+      border-radius: 50px;
+      background-color: rgb(222, 10, 81);
+      border: none;
+      color: white;
+      
+  }
+  
+  img{
+      width: 100%;
+      height: 100%;
+      opacity: 0.5;
+  }
+  
+/*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+
+    width: 100%;
+    height: 700px;
+    background-color: rgb(29, 28, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    width: 40%;
+     border: 2px solid white; 
+    height: 80%;
+    background-color: black;
+}
+
+.right{
+    width: 50%;
+    /* border: 2px solid white; 
+    height: 80%;
+    color: white;
+    padding: 50px 30px;
+}
+
+h1{
+
+  font-size: 70px;
+}
+
+h3{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+span{
+    color: rgb(222, 10, 81);
+}
+
+h1,h3,p,button{
+
+    margin: 20px 0px;
+}
+
+p{
+    line-height: 25px;
+    color: rgb(224, 162, 171);
+    letter-spacing: 2px;
+}
+
+button{
+    padding: 13px 25px;
+    border-radius: 50px;
+    background-color: rgb(222, 10, 81);
+    border: none;
+    color: white;
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}*/
