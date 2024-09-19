@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       } 
+       body{
+        /* height:100vh; */
+        /* width:100vh ; */
+       }
+       .main{
+        height: 500px ;
+        width: 300px ;
+        border: 2px solid black;
+        margin: auto;
+        /* position: relative; */
+       }
+       .img{
+        height: 400px;
+        width: 300px;
+        /* background: #ffa45c; */
+        position: relative;
+        overflow: hidden;
+        transition: 1s;
+       }
+       .i{
+        height: 100%;
+        width: 100%;
+       }
+       .overlay{
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+        border: 2px solid red;
+        text-align: end;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background:rgba(254, 201, 44, 0.3);
+        /* background: #ffa45c; */
+        opacity: 0;
+        transition: all 1s ease ;
+       }
+       .overlay a{
+        padding: 15px;
+        /* margin-left: 5px; */
+        border: 2px solid black;
+       
+       }
+       .overlay a:nth-child(1){
+        color: white;
+        background: black;
+        text-transform: uppercase;
+       }
+       .overlay a:nth-child(2){
+        text-transform: uppercase;
+        background: white;
+       }
+       .main:hover .overlay{
+        visibility: visible;
+        opacity: 1;
+        /* backface-visibility: visible; */
+        /* scale: 1.5; */
+       }
+       .img:hover .i{
+         transform: scale(1.1);
+         transition: 1s;
+
+       }
+       .overlay a:hover{
+        background:rgba(254, 201, 44, 0.3);
+        /* background: #ffa45c; */
+       }
+    </style>
+</head>
+<body>
+    <div class="main">
+            <div class="img">
+                <img  class="i" src="product-2.jpg " alt="">
+                <div class="overlay">
+                    <a href="">add to cart</a>
+                    <a href="">buy now</a>
+                </div>
+            </div>
+            <div class="text">
+                <p>floral jackquard pullover</p>
+                    <h4>$120.00</h4>
+            </div>
+    </div>
+</body>
+</html>
