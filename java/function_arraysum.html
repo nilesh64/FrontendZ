@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    var arr =[12,14,23,16,9,5,7,3];
+
+    function reverse_arr (arr){
+        var reverse_a=[];
+        for( var i =arr.length -1; i>=0; i--){
+          reverse_a.push(arr[i]);
+        }
+        return reverse_a;
+    }
+    var b= reverse_arr (arr);
+    console.log(b);
+
+
+//     var arr =[12,14,23,16,9,5,7,3];
+//     function sumarray (arr){
+//         var sum =0;
+//         for( var i =0; i<arr.length; i++){
+//             sum= sum + arr[i];
+//            console.log(sum); 
+//         }
+//         return sum;
+//     }
+   
+//    console.log( sumarray (arr));
+   </script> 
+</body>
+</html>
